@@ -26,18 +26,18 @@
     font-size: 60px;
     font-style: italic;
     font-weight: 600;
-    color: rgb(219, 213, 213);
+    color: rgb(76, 29, 138);
     font-family: sans-serif;
   }
   span{
-    color: rgb(222, 224, 245);
+    color: rgb(76, 29, 138);
     font-size: 50px;
     font: bold;
   }
   
   .navbar a{
     font-size: 20px;
-    color: rgb(217, 230, 35);
+    color: rgb(68, 73, 3); 
     text-decoration: none;
     font-weight: 400;
     margin-left: 35px;
@@ -46,12 +46,12 @@
   
   .navbar a:hover,
   .navbar a.active {
-    color: rgb(217, 230, 35); 
+    color: rgb(68, 73, 3); 
   }
   
   .home {
     height: 100vh;
-    background-image:url(wallpaperflare.com_wallpaper.jpg);
+    background-image:url(simple-anime-2l34pjtilt0b5aei.jpg);
     background-size: cover;
     background-position: center;
     display: flex;
@@ -68,7 +68,7 @@
   .home-content h3 {
     font-size: 32px;
     font-weight: 700;
-    color: rgb(241, 163, 163);
+    color: rgb(128, 66, 66);
   }
   
   .home-content p {
@@ -94,7 +94,7 @@
     width: 150px;
     height: 100%;
     background: #00abf0;
-    border: 2px solid rgb(241, 231, 231);
+    border: 2px solid rgb(63, 22, 71);
     border-radius: 8px;
     font-size: 19px;
     color: #29081c;
