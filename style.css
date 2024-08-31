@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  body {
+    color: rgb(3, 21, 48);
+  }
+  
+  .header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    z-index: 100;
+  }
+  
+  .logo {
+    text-decoration: none;
+    font-size: 60px;
+    font-style: italic;
+    font-weight: 600;
+    color: rgb(219, 213, 213);
+    font-family: sans-serif;
+  }
+  span{
+    color: rgb(222, 224, 245);
+    font-size: 50px;
+    font: bold;
+  }
+  
+  .navbar a{
+    font-size: 20px;
+    color: rgb(217, 230, 35);
+    text-decoration: none;
+    font-weight: 400;
+    margin-left: 35px;
+    transition: .3s;   
+  }
+  
+  .navbar a:hover,
+  .navbar a.active {
+    color: rgb(217, 230, 35); 
+  }
+  
+  .home {
+    height: 100vh;
+    background-image:url(wallpaperflare.com_wallpaper.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    padding: 0 10%;
+  }
+  
+  .home-content h1{
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.2;
+  }
+  
+  .home-content h3 {
+    font-size: 32px;
+    font-weight: 700;
+    color: rgb(241, 163, 163);
+  }
+  
+  .home-content p {
+    font-size: 20px;
+    font-weight: 500;
+    margin: 20px 0 40px;
+    line-height: 1.5;
+    text-align: justify;
+  }
+  
+  .home-content .btn-box {
+    display: flex;
+    justify-content: space-between;
+    width: 345px;
+    height: 50px;
+  }
+  
+  .btn-box a {
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 100%;
+    background: #00abf0;
+    border: 2px solid rgb(241, 231, 231);
+    border-radius: 8px;
+    font-size: 19px;
+    color: #29081c;
+    text-decoration: none;
+    font-weight: 800;
+    letter-spacing: 1px;
+    transition: .01s;
+  }
+  
+  .btn-box a:nth-child(2) {
+    background: transparent;
+    color: rgb(254, 196, 196);
+  }
+  
+  .btn-box a:nth-child(1) {
+    background: transparent;
+    color: rgb(254, 196, 196);
+  }
+  
+  .btn-box a:hover{
+    color: white;
+  }
+  
+  .btn-box a:hover:nth-child(2){
+    color: white;
+  }
+  
+  .btn-box a:hover::before {
+    width: 100%;
+  }
+
+
+  .my-content .mypic {
+      border-radius: 45px;
+      background:#00090c;
+      padding: 20px;
+      width: 480px;
+      height: 400px;
+      justify-content: right;
+  }
+  
+  .icons{
+    position: absolute;
+    bottom: 40px;
+    width: 170px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .icons a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background: rgb(130, 84, 84);
+    border: 3px solid white;
+    border-radius: 50%;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+  }
