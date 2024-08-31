@@ -157,3 +157,9 @@
     color: white;
     text-decoration: none;
   }
+  footer {
+    background: rgb(128, 66, 66);
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+  }
